@@ -25,6 +25,9 @@ function App() {
         onChange={handleInputChange} 
         placeholder="Escribe algo"
       />
+        <p>
+         <strong>{texto}</strong>
+        </p>
       <button onClick={analizarTexto}>Analizar</button>
       <p>{resultado}</p>
     </div>
